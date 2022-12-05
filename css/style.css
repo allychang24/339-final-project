@@ -4,7 +4,11 @@ body {
     font-weight: lighter;
 }
 
-ul.nav_links {
+nav {
+    margin: 0px 50px 0px 20px;
+}
+
+.nav_links {
     list-style-type: none;
     text-decoration: none;
     display: grid;
@@ -13,7 +17,6 @@ ul.nav_links {
     justify-content: space-around;
     font-size: 30px;
     word-spacing: -2px;
-    padding: 0px;
     text-align: center;
 }
 
@@ -76,6 +79,37 @@ div.clay_page {
     border-radius: 40px;
 }
 
+div.felted_page {
+    width: auto;
+    background-color: white;
+    border-radius: 40px;
+}
+
+div.felted_flex {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    row-gap: 50px;
+
+}
+
+
+/* div.needle_felted img {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+    padding: 0px 0px 50px 0px;
+    margin: auto;
+    display: flex;
+    width:50%;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+} */
+
 div.container {
     padding: 50px 30px;
 }
@@ -118,7 +152,7 @@ h2 {
     font-family: 'Papyrus';
     font-weight: lighter;
     text-align: center;
-    padding: 100px 10px 100px 10px;
+    padding: 50px 10px 100px 10px;
 }
 
 h3 {
@@ -130,19 +164,6 @@ h3 {
 }
 
   
-div.needle_felted img {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align:center;
-    padding: 0px 0px 50px 0px;
-    margin: auto;
-    display: flex;
-    width:50%;
-    align-items: center;
-    align-content: space-around;
-    flex-wrap: wrap;
-}
 /* 
 div.needle_felted {
     text-align:center;
