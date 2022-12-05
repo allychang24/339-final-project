@@ -74,10 +74,10 @@ a.skip:focus {
 }
 
 
-.logo_page img {
-    display: flex;
+img #logo {
+    display: grid;
     justify-content: center;
-    width: 70%
+    width: 50%
 }
 
 img {
@@ -93,18 +93,13 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     padding: 50px;
     font-weight: lighter;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
-div h1 {
-    font-size: 40px;
-    font-weight: lighter;
-    font-family: 'Courier New', Courier, monospace;
-}
   
 div.needle_felted img {
     width: 80%;
