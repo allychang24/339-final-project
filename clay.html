@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/htmlreset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 <title>Gorgeous Thing</title>
@@ -11,17 +12,19 @@
         <h1><a href="home.html">Gorgeous Thing</a></h1>
         <nav>
             <ul class="nav_links">
-              <li class="nav_item"><a href="about.html">About</a></li>
-              <li class="nav_item"><a href="clay.html">Clay</a></li>
-              <li class="nav_item"><a href="felted.html">Needle Felted</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="clay.html" class="current">Clay</a></li>
+              <li><a href="felted.html">Needle Felted</a></li>
             </ul>
         </nav>
     </header>
     <main>
     <h2>Clay Jewelry</h2>
     <div class="clay_grid">
+
     <div class="clay_page">
-      <img class="image" src="images/tulip.jpeg" alt="sample" style="width: 100%" >
+      <img id="image" onmouseover="newtulip()" onmouseout="oldtulip()"
+       src="images/tulip.jpeg" alt="logo">
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 15</p>
@@ -29,116 +32,114 @@
     </div>
 
     <div class="clay_page">
-      <img class="image" src="images/tulip2.jpeg" alt="logo" style="width: 100%">
+      <img id="image2" onmouseover="newkeychain()" onmouseout="oldkeychain()"
+      src="images/clay_keychain.jpeg" alt="sample" >
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 15</p>
       </div>
     </div>
 
-    <div class="clay_page">
-      <img class="image" src="images/tulip3.JPG" alt="sample" >
-      <div class=" container">
-        <p>Tulip brass drop</p>
-        <p>$ 15</p>
-      </div>
-    </div>
-
-    <div class="clay_page">
+    <!-- <div class="clay_page">
       <img class="image" src="images/tulip4.jpeg" alt="logo" >
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 15</p>
       </div>
-    </div>
+    </div> -->
 
-    <div class="clay_page">
+    <!-- <div class="clay_page">
       <img class="image" src="images/clay_keychain.jpeg" alt="sample" >
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 10</p>
       </div>
-    </div>
+    </div> -->
 
     <div class="clay_page">
-      <img class="image" src="images/rose.jpg" alt="sample" width="100%" >
+      <img id="image3" onmouseover="newrose()" onmouseout="oldrose()"
+      src="images/rose.jpg" alt="roseearrinngs" >
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 15</p>
       </div>
     </div>
 
-    <div class="clay_page">
-      <img class="image" src="images/rose2.jpg" alt="sample" >
+    <!-- <div class="clay_page">
+      <img class="image" onmouseover="newtulip()" onmouseout="oldtulip()"
+      src="images/rose2.jpg" alt="sample" >
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 15</p>
       </div>
-    </div>
+    </div> -->
       
-    <div class="clay_page">
+    <!-- <div class="clay_page">
       <img class="image" src="images/rose3.jpg" alt="logo" >
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 15</p>
       </div>
     </div>
-      
+       -->
     <div class="clay_page">
-      <img class="image" src="images/sunflower1.jpeg" alt="sample" >
+      <img id="image4" onmouseover="newsunflower()" onmouseout="oldsunflower()"
+      src="images/sunflower1.jpeg" alt="sunflower earrings" >
       <div class=" container">
-        <p>Tulip brass drop</p>
+        <p>Sunflower brass</p>
         <p>$ 15</p>
       </div>
     </div>
 
-    <div class="clay_page">
+    <!-- <div class="clay_page">
       <img class="image" src="images/sunflower2.jpeg" alt="logo" >
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 15</p>
       </div>
-    </div>
+    </div> -->
 
     <div class="clay_page">
-      <img class="image" src="images/oval.jpg" alt="sample" >
+      <img id="image5" onmouseover="newoval()" onmouseout="oldoval()"
+      src="images/oval.jpg" alt="sample" >
+      <div class=" container">
+        <p>Oval brass leaf</p>
+        <p>$ 15</p>
+      </div>
+    </div>
+<!-- 
+    <div class="clay_page">
+      <img id="image" src="images/oval2.jpeg" alt="sample" >
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 15</p>
       </div>
-    </div>
-
+    </div> -->
+<!--     
     <div class="clay_page">
-      <img class="image" src="images/oval2.jpeg" alt="sample" >
+      <img id="image" src="images/oval3.jpeg" alt="logo" >
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 15</p>
       </div>
-    </div>
-    
-    <div class="clay_page">
-      <img class="image" src="images/oval3.jpeg" alt="logo" >
-      <div class=" container">
-        <p>Tulip brass drop</p>
-        <p>$ 15</p>
-      </div>
-    </div>
+    </div> -->
 
     <div class="clay_page">
-      <img class="image" src="images/jade.jpeg" alt="sample" >
+      <img id="image6" onmouseover="newjade()" onmouseout="oldjade()"
+      src="images/jade.jpeg" alt="sample" >
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 16</p>
       </div>
     </div>
-
+<!-- 
     <div class="clay_page">
       <img class="image" src="images/jade2.jpeg" alt="sample" >
       <div class=" container">
         <p>Tulip brass drop</p>
         <p>$ 16</p>
       </div>
-    </div>
+    </div> -->
 
     <div class="clay_page">
       <img class="image" src="images/moon.jpeg" alt="sample" >
@@ -253,5 +254,7 @@
     </div>
     </div>
     </main>
+    <script src="js/jsClay.js"></script>
+    <footer>Gorgeous Thing <br> Ally Chang 2022</footer>
 </body>
 </html>
