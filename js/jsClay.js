@@ -59,3 +59,33 @@ function oldjade()
 {
     document.getElementById("image6").src = "images/jade.jpeg";
 }
+
+function newmoon()
+{
+    document.getElementById("image7").src = "images/moon2.jpeg";
+}
+
+function oldmoon()
+{
+    document.getElementById("image7").src = "images/moon.jpeg";
+}
+
+function newpink()
+{
+    document.getElementById("image8").src = "images/pink2.jpeg";
+}
+
+function oldpink()
+{
+    document.getElementById("image8").src = "images/pink.jpg";
+}
+
+function newgeo()
+{
+    document.getElementById("image9").src = "images/geo2.jpeg";
+}
+
+function oldgeo()
+{
+    document.getElementById("image9").src = "images/geo.jpeg";
+}
